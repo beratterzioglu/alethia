@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alethia-quant"
+version = "0.1.0"
+description = "A trust-first backtesting protocol: does your trading edge survive the truth?"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Berat Terzioğlu" }]
+keywords = ["quant", "backtest", "deflated-sharpe", "overfitting", "reproducibility", "trading"]
+classifiers = [
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9"]
+
+[project.urls]
+Homepage = "https://github.com/"           # set on publish
+
+[tool.setuptools.packages.find]
+include = ["alethia*"]
