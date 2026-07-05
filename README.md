@@ -78,10 +78,11 @@ python -m alethia.calibration
 
 ## Background
 
-<!-- Berat: replace this with your own story. Why you built it, what it saved you from.
- A personal paragraph here does more for credibility than any feature list. -->
+I'm not a quant by training. I spent about two years trying to find a real edge in crypto, learning most of it as I went. Early on I trusted a backtest that was quietly lying to me, and I lost real money believing it. After that I stopped chasing a winning strategy and started caring about one thing instead: being able to trust the answer when it was "no."
 
-Built as the measurement core of a long crypto-alpha research project. The point was never a strategy; it was a system honest enough to say "no" when the honest answer was no. `STUDY.md` walks through applying it to a two-year search that ended in exactly that answer.
+alethia is what came out of that. It checks itself on cases where the truth is already known before it says anything about your strategy, so that a "no" actually means something. If it saves one person the mistake I made, it did its job.
+
+The full story, including a two-year search that honestly ended in "no edge," is in `STUDY.md`.
 
 ## References
 
